@@ -9,9 +9,12 @@
   <body>
     <!--index.html-->
     <header>
-      <div>
-        <img src="assets/black-heart.webp" alt="black-heart" />
-        <p>NPM Clone Nifty Penguin Magic</p>
+      <div class="nav-bar">
+        <div class="icon-heart">
+          <img class="heart" src="assets/black-heart.webp" alt="black-heart"/>
+          <p>NPM Clone Nifty Penguin Magic</p>
+        </div>
+
         <nav>
           <ul>
             <li><a href="#">npm Enterprise</a></li>
@@ -23,19 +26,23 @@
           </ul>
         </nav>
       </div>
-      <div>
-        <img src="assets/npm-logo.webp" alt="npm-logo" />
-        <img src="assets/spaces_Bedsearch-icon.webp" alt="search icon" />
-        <input
-          type="text"
-          name="search"
-          value="search"
-          id="search"
-          placeholder="Search packages"
-        />
-        <button>Search</button>
-        <a href="#">Join</a>
-        <a href="#">Log In</a>
+      <div class="input-search">
+        <div class="input">
+          <img class="npm-logo" src="assets/npm-logo.webp" alt="npm-logo" />
+          <img src="assets/spaces_Bedsearch-icon.webp" alt="search icon" />
+          <input
+            type="text"
+            name="search"
+            value="search"
+            id="search"
+            placeholder="Search packages"
+          />
+        </div>
+        <div class="join-login">
+          <button>Search</button>
+          <a href="#">Join</a>
+          <a href="#">Log In</a>
+        </div>
       </div>
     </header>
 
@@ -47,7 +54,7 @@
           faster and build powerful applications using modern open source code.
         </p>
         <div>
-          <a href="#">See plans</a>
+          <a class="link-red" href="#">See plans</a>
           <a href="#">Join for free</a>
         </div>
       </section>
@@ -93,13 +100,12 @@
           <img src="assets/npm-audit.svg" alt="npm-audit" />
           <h3>npm audit</h3>
           <p>
-            Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.
+            Enjoy the security auditing features built into the npm client, a
+            zero-friction way to make open source software safer.
           </p>
         </div>
         <button>Create an Org</button>
       </section>
     </main>
-
-    
   </body>
 </html>
