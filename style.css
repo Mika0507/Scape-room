@@ -34,8 +34,11 @@ section{
     gap: 12px;
     width: 18em;
 }
-.heart, .npm-logo{
+.heart{
     width: 44px;
+}
+.npm-logo{
+    width: 60px;
 }
 ul{
     display: flex;
@@ -50,6 +53,7 @@ li{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .input-search{
@@ -65,27 +69,38 @@ a{
     gap: 10px;
 }
 input{
-    width: 20em;
-    height: 2.5em;
+    width: 70em;
+    height: 4em;
     border: none;
     background-color: rgba(0, 0, 0, 0.2);
-    padding-left: 5px;
-    border-radius: 10px;
+    padding-left: 4em;
+    outline: none;
+    position: relative;
 }
-
-.join-login > button{
+.search-icon{
+    position: absolute;
+    left: 7em;
+}
+.input > button{
     width: 6em;
-    height: 2.75em;
+    height: 4em;
     border: none;
     background-color: red;
 }
+.join-login div:first-child{
+    width: 6em;
+    height: 4em;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1.2em;
+}
 /* Section start */
-#presentation{
+#presentation, #hexagon-section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2.75em;
+    margin: 4em 0;
     padding: 0 228px;
 }
 
@@ -94,13 +109,64 @@ h1{
     margin: 1em;
 }
 
-p{
+article{
     text-align: center;
     margin: 1em;
 }
-
+#presentation div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4em;
+}
 .link-red{
     background-color: red;
-    width: 12em;
+    width: 10em;
     height: 3em;
+    text-align: center;
+    padding-top: 0.75em;
+    box-shadow: 4px 4px rgba(255, 0, 0, 0.2);
+}
+/* Section number 2 */
+h2{
+    margin-top: 2em;
+}
+#hexagon-section img{
+    width: 15em;
+    height: 15em;
+}
+/* section number 3 */
+#articles-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3em;
+    margin: 5em 0;
+}
+.ordering-articles{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3em;
+    padding: 0 5em;
+}
+.articles-last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1em;
+}
+.articles-last-section img{
+    width: 3em;
+    height: 3em;
+}
+#articles-section button{
+    width: 40em;
+    height: 3em;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
 }
