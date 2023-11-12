@@ -85,7 +85,8 @@ input{
     width: 6em;
     height: 4em;
     border: none;
-    background-color: red;
+    background-color: #fb3e44;
+    color: white;
 }
 .join-login div:first-child{
     width: 6em;
@@ -103,7 +104,10 @@ input{
     margin: 4em 0;
     padding: 0 228px;
 }
-
+#presentation{
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+}
 h1{
     font-size: 64px;
     margin: 1em;
@@ -125,11 +129,18 @@ article{
     height: 3em;
     text-align: center;
     padding-top: 0.75em;
-    box-shadow: 4px 4px rgba(255, 0, 0, 0.2);
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 /* Section number 2 */
 h2{
     margin-top: 2em;
+    
+}
+/* selector para inclinar el fondo del h2 del section hexagon-section */
+span{
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
 }
 #hexagon-section img{
     width: 15em;
@@ -162,11 +173,14 @@ h2{
     width: 3em;
     height: 3em;
 }
+h3{
+    color: #ED1C24;
+}
 #articles-section button{
     width: 40em;
     height: 3em;
     border: none;
     background-color: black;
     color: white;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
 }
